@@ -1,7 +1,11 @@
 <?php
 $date = 'July 20 2023 05:00:00 PM PDT';
 $exp_date = strtotime($date);
-$now = time();
+// $now = time();
+
+echo "get_date"; echo "<br>";
+echo "exp_date" . $exp_date; echo "<br>";
+echo "time()" . time(); echo "<br>";
 
 if ($now < $exp_date) {
 ?>
